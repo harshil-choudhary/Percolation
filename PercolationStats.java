@@ -65,7 +65,7 @@ public class PercolationStats {
         String confidence = percolationStats.confidenceLo() + ", " + percolationStats.confidenceHi();
         StdOut.println("mean                    = " + percolationStats.mean());
         StdOut.println("stddev                  = " + percolationStats.stddev());
-        StdOut.println("95% confidence interval = " + confidence);
+        StdOut.println("95% confidence interval = [" + confidence+"]");
    }
 
 }
